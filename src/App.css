@@ -1,0 +1,41 @@
+.app {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .list {
+    flex: 1;
+    overflow-y: auto;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .list-item {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .details {
+    flex: 2;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .details h2 {
+    margin-bottom: 15px;
+  }
+  
+  .details p {
+    margin: 10px 0;
+  }
+  
